@@ -51,7 +51,7 @@ export default {
             const focus = { lat: 6.4434, lng: 3.3553 }
 
             var map = tt.map({
-                key: 'Ka5JcBchkVsJSr3gxVgHPC1NcvPO90lG',
+                key: process.env.VUE_APP_API_KEY,
                 container: mapRef.value,
                 center: focus,
                 zoom: 15
